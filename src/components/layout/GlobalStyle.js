@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
   html, body {
-    background: var(--color-6);
+    background: var(--light-gray);
     height: 100vh;
   }
   :root {
