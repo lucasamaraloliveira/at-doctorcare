@@ -8,11 +8,14 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
     font-family: 'DM Sans', sans-serif;
     list-style: none;
+    text-decoration: none;
   }
+
   html, body {
     background: var(--light-gray);
     height: 100vh;
   }
+  
   :root {
     --brand-blue: #0A4378;
     --brand-blue-light: #1971C2;
