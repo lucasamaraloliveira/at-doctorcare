@@ -1,23 +1,26 @@
 import * as S from "./style";
+import Logo from "../../../assets/logo.svg"
 
 
 export function Navbar() {
   return (
     <S.Container>
-      <S.BoxList>
+      <img src={Logo} alt="Logo" />
+      <ul>
         <li>
-          <a className="teste" href="#">Fernanda Selvagem</a>
+          <a className="teste" href="#">Início</a>
         </li>
         <li>
-          <a href="#">Marcelo Pivete Master</a>
+          <a href="#">Sobre</a>
         </li>
         <li>
-          <a href="#">Lucas já começou</a>
+          <a href="#">Serviços</a>
         </li>
         <li>
-          <a href="#">Não começa nunca...</a>
+          <a href="#">Depoimentos</a>
         </li>
-      </S.BoxList>
+      </ul>
+      <button>Agendar Consulta</button>
     </S.Container>
   );
 }
