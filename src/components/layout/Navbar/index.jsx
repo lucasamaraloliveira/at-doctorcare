@@ -1,11 +1,11 @@
 import * as S from "./style";
 import Logo from "../../../assets/logo.svg"
-
+import { HamburgerMenu } from "../HamburgerMenu";
 
 export function Navbar() {
   return (
     <S.Container>
-      <img src={Logo} alt="Logo" />
+      <a href=""><img src={Logo} alt="Logo" /></a>
       <ul>
         <li>
           <a className="teste" href="#">Início</a>
@@ -21,6 +21,8 @@ export function Navbar() {
         </li>
       </ul>
       <button>Agendar Consulta</button>
+      
     </S.Container>
+          
   );
 }
