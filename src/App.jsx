@@ -8,6 +8,7 @@ export function App() {
       <GlobalStyle />
       <Navbar />
       {/* <Footer /> */}
+      <h1>teste</h1>
     </>
   );
 }
