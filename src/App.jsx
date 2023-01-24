@@ -1,5 +1,7 @@
 import { GlobalStyle } from "./GlobalStyle";
 import { Navbar } from "./components/layout/Navbar";
+import { HamburgerMenu } from "./components/layout/HamburgerMenu";
+
 // import { Footer } from "./components/layout/Footer";
 
 export function App() {
@@ -7,8 +9,9 @@ export function App() {
     <>
       <GlobalStyle />
       <Navbar />
+      <HamburgerMenu/>
+      
       {/* <Footer /> */}
-      <h1>teste</h1>
     </>
   );
 }
